@@ -66,7 +66,9 @@ prepare(driver)
 print("Bitte ändere die nötigen Angaben einmalig. Lösch die 2. Zeile in der Beschreibung auf der Seite")
 input("Wenn die Vorbereitungen abgeschlossen sind drücke Enter\nVergiss nicht die Anzahl auf 1 zu setzten!")
 
-with open("august.csv") as csv_file:
+file_name = input("Bitte gib eine CSV-Datei an mit der Endung.")
+
+with open(file_name) as csv_file:
     csv_reader = csv.reader(csv_file, delimiter = ",")
     line_count = 0
 
