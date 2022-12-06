@@ -7,6 +7,6 @@ rechnung_nr = "Rechnung Nr. 201908" #Titel der Datei -> Rechnungnr.: YYYYMMNNN
 datum = "Datum: "
 text = "Der Betrag wurde bereits beglichen."
 
-foot_one = "Baris Üctas\nHermann-Dornscheidtstraße 26\n40470 Düsseldorf"
+foot_one = "Baris Üctas\n<Strasse> <Hausnummer>\n<PLZ> <ORT>"
 foot_two = "USt-IdNr: Daten\nSteuernummer: DAten"
 foot_three = "N26 Bank\nIBAN: Daten\nBIC: Daten"
